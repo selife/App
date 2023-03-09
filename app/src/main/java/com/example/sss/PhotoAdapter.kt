@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.myapp.models.Photo
+import com.bumptech.glide.request.RequestOptions
 
 class PhotoAdapter(private val context: Context, private val photos: List<Photo>) :
     RecyclerView.Adapter<PhotoAdapter.PhotoViewHolder>() {
